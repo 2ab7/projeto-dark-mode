@@ -1,0 +1,113 @@
+@media(max-width:1440px){
+    main.caixa-principal div.imagem img.imagem-principal{
+        height: 100%;
+    }
+    main.caixa-principal div.descricoes h2.titulo-descricao {
+        font-size: 3.9rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido p.valor{
+        font-size: 3rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido button.btn-pedido{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:1024px){
+    header.cabecalho h1.titulo-cabecalho{
+        font-size: 4rem;
+    }
+    main.caixa-principal div.imagem img.imagem-principal{
+        width: 350px;
+        height: 350px;
+        height: 100%;
+    }
+    main.caixa-principal{
+        width: 60%;
+    }
+    div.descricoes{
+        text-align: center;
+    }
+    main.caixa-principal div.descricoes h2.titulo-descricao {
+        font-size: 2.7rem;
+    }
+    main.caixa-principal div.descricoes h3{
+        font-size: 1.8rem;
+    }
+    main.caixa-principal div.descricoes p{
+        font-size: 1.5rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido{
+        margin-top: 1rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido p.valor {
+        font-size: 3rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido button.btn-pedido{
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+}
+@media(max-width:768px){
+    header.cabecalho h1.titulo-cabecalho{
+        font-size: 3rem;
+    }
+    main.caixa-principal{
+        width: 85%;
+    }
+    main.caixa-principal div.descricoes h3{
+        font-size: 1.7rem;
+    }
+}
+@media(max-width:425px){
+    header.cabecalho img.logo{
+        width: 70px;
+        height: 70px;
+    }
+    header.cabecalho h1.titulo-cabecalho{
+        font-size: 2.2rem;
+    }
+    main.caixa-principal{
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+    }
+    div.imagem {
+        width: 100%;
+        text-align: center;
+    }
+    div.descricoes {
+        width: 100%;
+    }
+    main.caixa-principal div.imagem img.imagem-principal{
+        width: 200px;
+        height: 100px;
+    }
+}
+@media(max-width:375px){
+    header.cabecalho img.logo{
+        width: 50px;
+        height: 50px;
+    }
+    header.cabecalho h1.titulo-cabecalho{
+        font-size: 1.8rem;
+    }
+}
+@media(max-width:320px){
+    main.caixa-principal div.descricoes h2.titulo-descricao {
+        font-size: 2.2rem;
+    }
+    main.caixa-principal div.descricoes h3{
+        font-size: 1.3rem;
+    }
+    main.caixa-principal div.descricoes p{
+        font-size: 1.3rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido p.valor {
+        font-size: 2rem;
+    }
+    main.caixa-principal div.descricoes .caixa-pedido button.btn-pedido{
+        font-size: 1.2rem;
+        padding: 1.5rem;
+    }
+}

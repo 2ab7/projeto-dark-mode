@@ -1,0 +1,143 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/background.png) center center no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    transition: .3s;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+.bi {
+    font-size: 3rem;
+    cursor: pointer;
+    color:#da8618;
+}
+
+header.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    min-height: 5rem;
+    filter: drop-shadow(1px 1px 1px #fff);
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    box-shadow: .5px .5px 10px .5px #fff;
+}
+
+div.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header.cabecalho h1.titulo-cabecalho {
+    font-size: 4.5rem;
+    color: #624d00;
+}
+
+main.caixa-principal {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+    gap: 3rem;
+}
+
+div.imagem {
+    width: 50%;
+}
+
+main.caixa-principal div.imagem img.imagem-principal {
+    border-radius: 30%;
+    border: 3px solid #624d00;
+    width: 100%;
+}
+
+div.descricoes {
+    width: 50%;
+    text-align: left;
+}
+
+main.caixa-principal div.descricoes h2.titulo-descricao {
+    font-size: 5rem;
+    color: #624d00;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+main.caixa-principal div.descricoes h3 {
+    font-size: 2.3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    background-color: #c83400;
+    text-align: center;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+main.caixa-principal div.descricoes p {
+    font-size: 2rem;
+    color: #fff;
+    text-align: justify;
+    text-indent: 3rem;
+    line-height: 3rem;
+}
+
+main.caixa-principal div.descricoes .caixa-pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+main.caixa-principal div.descricoes .caixa-pedido p.valor {
+    font-size: 4rem;
+}
+
+main.caixa-principal div.descricoes .caixa-pedido button.btn-pedido {
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+.bi-moon{
+    display: none;
+}
+
+/* DARK THEME */
+.dark,
+.dark main.caixa-principal{
+    background-color: #000;
+} 
+.dark .bi-sun{
+    display:none;
+}
+.dark .bi-moon{
+    display: block;
+}
+.dark .btn-pedido{
+    background-color: lightsalmon;
+}
+.dark header{
+    box-shadow: .5px .5px 10px .5px #624d00;
+}
+.dark main.caixa-principal div.descricoes h3{
+    background-color: #624d00;
+}
+.dark main.caixa-principal div.descricoes .caixa-pedido p.valor{
+    color: lightseagreen;
+}
